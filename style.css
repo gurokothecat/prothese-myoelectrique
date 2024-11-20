@@ -1,0 +1,15 @@
+.text-container {
+    position: relative; /* Nécessaire pour que le z-index fonctionne */
+    z-index: 7; /* Supérieur à 6 */
+    border: 2px solid var(--black-color); /* Bordure noire */
+    padding: 20px; /* Espacement intérieur */
+    background-color: var(--black-color); /* Couleur de fond */
+    width: 73%; /* Largeur du conteneur */
+    margin: 50px auto; /* Centrer horizontalement avec un espace vertical */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optionnel : ombre douce pour un effet esthétique */
+    height: 50%;
+}
+
+.txt {
+    color: white;
+}
